@@ -67,16 +67,16 @@ function modeChanger() {
 
 modeChanger();
 
-function search() {
-  const elInput = document.getElementById("input");
-  elInput.addEventListener("input", (e) => {
-    let key = e.target.value;
-    data.filter(() => {
-      if (key == h3Name) {
-        console.log(88);
-      }
-    });
-  });
-}
+// function search() {
+//   const elInput = document.getElementById("input");
+//   elInput.addEventListener("input", (e) => {
+//     let key = e.target.value;
+//     data.filter(() => {
+//       if (key == h3Name) {
+//         console.log(88);
+//       }
+//     });
+//   });
+// }
 
-search();
+// search();
